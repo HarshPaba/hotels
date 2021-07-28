@@ -53,20 +53,7 @@ header {
   }
 }
 
-@media (max-width:400px){
-  .hotel{
-      flex-direction: column;
-      margin: 5vh;
-  }
-  .hotel1{
-      flex-direction: column;
-      margin: 5vh;
-  }
-  .image img{
-      width: 60vw;
-      height: 50vh;
-  }
-}
+
 
 .navbar div {
   padding: 2vh 2vw 3vh 2vw;
@@ -301,5 +288,21 @@ footer {
 
 .foo3 ul li {
   display: inline;
+}
+@media (max-width:400px){
+  .hotel{
+    display:flex;
+      flex-direction: column;
+      margin: 5vh;
+  }
+  .hotel1{
+    display:flex;
+      flex-direction: column;
+      margin: 5vh;
+  }
+  .image img{
+      width: 60vw;
+      height: 50vh;
+  }
 }
 
